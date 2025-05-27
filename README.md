@@ -12,14 +12,16 @@ Sitio web oficial de SL Corp desarrollado con React y Vite. Ofrece información 
 - Efectos interactivos con React Hooks  
 
 ## Descripción del Funcionamiento
-Este sitio web corporativo está construido de forma modular utilizando React. Cada sección del sitio (como el hero, los servicios, la misión y visión, etc.) está encapsulada dentro de componentes individuales. Esto permite una fácil mantenibilidad y reutilización del código.
+Este sitio web corporativo está desarrollado utilizando React de forma modular. Cada sección del sitio (por ejemplo, el hero, los servicios, la misión y visión, entre otras) está encapsulada dentro de componentes reutilizables, lo que facilita el mantenimiento, la escalabilidad y la organización del código.
 
-La información dinámica, como los servicios ofrecidos por la empresa, se carga mediante fetch desde un archivo JSON simulado con JSON Server. Esta separación de datos y lógica de presentación permite una mayor flexibilidad al actualizar contenido sin tener que modificar los componentes directamente.
+La información dinámica, como los servicios ofrecidos por la empresa, se obtiene mediante una petición fetch a un archivo JSON simulado con JSON Server. Esta separación entre los datos y la lógica de presentación permite modificar el contenido fácilmente sin tener que tocar el código de los componentes.
 
-La navegación es responsiva y amigable en dispositivos móviles, incluyendo un menú tipo hamburguesa que se despliega mediante useState.
+La interfaz es responsiva, adaptándose correctamente a distintos tamaños de pantalla. En dispositivos móviles, la navegación incluye un menú tipo hamburguesa implementado con el hook useState para manejar su visibilidad de forma interactiva.
+
+Además, se emplearon hooks como useEffect para cargar datos dinámicos y manejar efectos secundarios dentro de los componentes, y se estructuró el proyecto siguiendo buenas prácticas de organización de carpetas, estilos y lógica de negocio.
 
 
-## 🛠 Tecnologías utilizadas  
+## Tecnologías utilizadas  
 - **Frontend**: React 18 + Vite  
 - **Estilos**: CSS Modules  
 - **Íconos**: React Icons (Font Awesome)  
