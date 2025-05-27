@@ -30,7 +30,7 @@ Además, se emplearon hooks como useEffect para cargar datos dinámicos y maneja
 ##  Instalación  
 1. Clona el repositorio:  
     ```bash
-    git clone https://github.com/tu-usuario/sl-corp-react.git
+    git clone https://github.com/ChimpyOriginal/sl-corp-react.git
     cd sl-corp-react
     ```
 
@@ -43,7 +43,12 @@ Además, se emplearon hooks como useEffect para cargar datos dinámicos y maneja
     ```bash
     npm run dev
     ```
+4. Instalaciones adicionales (íconos):
+    ```bash
+    npm install @fortawesome/fontawesome-free
 
+    npm install react-icons
+    ```
 
 
 ## Estructura del proyecto
