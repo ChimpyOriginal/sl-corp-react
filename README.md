@@ -28,28 +28,33 @@ La navegación es responsiva y amigable en dispositivos móviles, incluyendo un 
 ##  Instalación  
 1. Clona el repositorio:  
     ```bash
-   git clone https://github.com/tu-usuario/sl-corp-react.git
+    git clone https://github.com/tu-usuario/sl-corp-react.git
+    cd sl-corp-react
+    ```
 
 2. Instala dependencias:
-npm install
+    ```bash
+    npm install
+    ```
 
 3. Inicia el servidor de desarrollo:
-npm run dev
+    ```bash
+    npm run dev
+    ```
 
-4. (Opcional) Para simular la API:
-npm install -g json-server
-json-server --watch data/services.json --port 3000
 
 
 ## Estructura del proyecto
+A continuación, se muestra la estructura del directorio del proyecto, destacando los archivos y carpetas clave:
+```bash
 mi-app-react/
 ├── data/
-│   └── services.json               # Datos dinámicos simulados para JSON Server
-├── node_modules/                   # Módulos de Node (generado por npm)
-├── public/   
-    └── IMG                         # Carpeta con las imágenes
+│   └── services.json                # Datos dinámicos simulados para JSON Server
+├── node_modules/                    # Módulos de Node (generado por npm)
+├── public/
+│   └── IMG                          # Carpeta con las imágenes
 ├── src/
-│   ├── components/                 # Componentes reutilizables
+│   ├── components/                  # Componentes reutilizables
 │   │   ├── AboutUs/
 │   │   ├── Footer/
 │   │   ├── Header/
@@ -62,22 +67,36 @@ mi-app-react/
 │   │   └── Testimonials/
 │   ├── pages/
 │   │   └── Home/
-│   ├── App.jsx                     # Componente raíz de la app
-│   ├── main.jsx                    # Punto de entrada de React
-│   ├── index.css                   # Estilos globales
-├── .gitignore                      # Ignora node_modules, dist, etc.
-├── index.html                      # HTML base para Vite
-├── package.json                    # Configuración del proyecto y dependencias
-├── vite.config.js                  # Configuración de Vite
-└── README.md                       # Documentación del proyecto
+│   ├── App.jsx                      # Componente raíz de la app
+│   ├── main.jsx                     # Punto de entrada de React
+│   ├── index.css                    # Estilos globales
+├── .gitignore                       # Ignora node_modules, dist, etc.
+├── index.html                       # HTML base para Vite
+├── package.json                     # Configuración del proyecto y dependencias
+├── vite.config.js                   # Configuración de Vite
+└── README.md                        # Documentación del proyecto
+```
 
 ## Conexión a Datos
-// Ejemplo: Services.jsx
-useEffect(() => {
+La aplicación obtiene información dinámica (como los servicios ofrecidos) utilizando **fetch** para consumir datos desde un archivo JSON simulado con **JSON Server**. Esto permite separar la lógica de presentación de los datos, facilitando la actualización del contenido sin modificar los componentes.
+
+**Pasos para simular la API:**
+1. Instala JSON Server de forma global (si no lo tienes):
+  ```bash
+  npm install -g json-server
+  ```
+2. Ejecuta el servidor apuntando al archivo de datos:
+  ```bash
+  json-server --watch data/services.json --port 3000
+  ```
+3. Accede a los datos desde tu aplicación React usando:
+  ```js
   fetch('http://localhost:3000/services')
-    .then(res => res.json())
+    .then(response => response.json())
     .then(data => setServices(data));
-}, []);
+  ```
+
+Esto permite que los componentes de React consuman y muestren datos de manera dinámica, simulando una API real durante el desarrollo.
 
 
 ## Retos Enfrentados y Soluciones Implementadas
