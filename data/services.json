@@ -1,0 +1,34 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Servicios Contables y Fiscales",
+      "image": "Servicios Contables y Fiscales (2).jpg"
+    },
+    {
+      "id": 2,
+      "title": "Asesoría de Negocios y Financiamiento",
+      "image": "Asesoría de Negocios y Financiamiento.png"
+    },
+    {
+      "id": 3,
+      "title": "Medios de Defensa en Materia Fiscal",
+      "image": "Medios de Defensa en Materia Fiscal.png"
+    },
+    {
+      "id": 4,
+      "title": "Consultoría Fiscal y Financiera",
+      "image": "Consultoría Fiscal y Financiera.png"
+    },
+    {
+      "id": 5,
+      "title": "Productividad Fiscal",
+      "image": "Productividad Fiscal.png"
+    },
+    {
+      "id": 6,
+      "title": "Auditoría Financiera y Control Interno",
+      "image": "Auditoria Financiera y Control Interno.png"
+    }
+  ]
+}

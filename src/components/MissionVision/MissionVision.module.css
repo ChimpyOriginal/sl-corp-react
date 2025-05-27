@@ -1,0 +1,57 @@
+.propositoVision {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 100px 20px;
+  isolation: isolate; /* Para el z-index */
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/IMG/Fondo-Trabajadores-2.png') center/cover no-repeat;
+  z-index: -1;
+}
+
+
+.content {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+.propositoVision h2 {
+  font-size: 2.5em;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.propositoVision p {
+  font-size: 1.2em;
+  line-height: 1.7;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  padding: 0 3%;
+}
+
+/* Media Queries */
+@media (max-width: 400px) {
+  .propositoVision {
+    padding: 60px 20px;
+  }
+  
+  .propositoVision h2 {
+    font-size: 2.2em;
+  }
+  
+  .propositoVision p {
+    font-size: 1em;
+    text-align: justify;
+    padding: 0 10px;
+  }
+}

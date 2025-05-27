@@ -1,0 +1,17 @@
+/*Estilos globales para todo el sitio*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+/* Para texto amarillo resaltado en los títulos */
+.textoAmarillo {
+  color: #fecf40;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+}
