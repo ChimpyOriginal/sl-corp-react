@@ -240,3 +240,5 @@ Desarrollado por Maribel Paulina Sánchez Jiménez, Marcos Daniel Arias Cerino, 
 Este proyecto está bajo la licencia MIT.
 
 
+#   P A G I N A - S L C O R - V 4 - R E A C T  
+ 
