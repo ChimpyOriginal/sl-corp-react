@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "Dr. Lucio Heriberto Sosa Cerda",
+    "role": "Experto en Derecho Corporativo y Fiscal",
+    "bio": "Abogado de la entonces Administración Local Jurídica de Villahermosa, del Servicio Administración Tributaria, de la SHCP, Gobierno de la República. Delegado fundador de la Procuraduría de la Defensa del Contribuyente en el Estado de Tabasco, Gobierno Federal, E.U.M. Fundador del Capitulo Tabasco del Centro Mexicano de Estudios de lo Penal Tributario, A.C. Docente de Nivel Posgrado de la Maestría en Administración y Derecho Fiscal de la Universidad Autónoma de Ciudad del Carmen, Campeche, Universidad del Valle de México y otras. Miembro de la Academia Mexicana de Derecho Fiscal, Miembro de número de la International Fiscal Association (IFA-MEXICO)",
+    "bio1": "Abogado con amplia experiencia en derecho fiscal y administración pública, fundador de instituciones clave en Tabasco",
+    "image": "/imgs/Dr-Lucio.jpg"
+  },
+  {
+    "id": "2",
+    "name": "L.C.P. Abdy Abigail López Montuy",
+    "role": "Gerente Contable/Administradora de Consultoría Fiscal y Financiera",
+    "bio": "Licenciada en Contaduría Pública, egresada de la Facultad de Contaduría y Administración de la Universidad del Sur – Tuxtla Gutiérrez, Chiapas. (Generación 2018-2021). Principios y Valores: Rectitud; Probidad; Honestidad; Dignidad; Sinceridad; Imparcialidad; Desinterés; y Actuación si prejuicios en todos los asuntos que corresponden al campo de su actuación profesional.",
+    "bio1": "Una mujer profesionista con valores muy altos, enfocada en lograr un desarrollo profesional",
+    "image": "/imgs/Lic-Abigail.jpg"
+  },
+  {
+    "id": "3",
+    "name": "C.P. Alberto J. Rodríguez Pelayo",
+    "role": "Administrador de consultoría Fiscal y Financiera",
+    "bio": "Licenciado en Contaduría, egresado de la Facultad de Contaduría y Administración por la Universidad Nacional Autónoma de México – Ciudad de México. (Generación 1976 – 1980) Principios y Valores: Rectitud; Probidad; Honestidad; Dignidad; Sinceridad; Imparcialidad; Desinterés; y Actuación si prejuicios en todos los asuntos que corresponden al campo de su actuación profesional.",
+    "bio1": "Licenciado en Contaduría con experiencia en evaluación y gestión de financiamiento estructurado y capital de trabajo para empresas.",
+    "image": "/imgs/Lic-Alberto.PNG"
+  },
+  {
+    "id": "4",
+    "name": "Lic. Yair E. Torres Alcázar",
+    "role": "Asociado de Litigio Laboral y Seguridad Social",
+    "bio": " Licenciado en Derecho, con más de 5 años de experiencia, en Litigio en materia Laboral. Ofrece asesoría y seguimiento previo a los procesos del Ministerio de Trabajo, negociaciones y conciliaciones de asuntos laborales individuales y colectivos, representación e intervención en demandas ante tribunales laborales. Diseñador de estrategias de defensa para obtención de resultados exitosos en juicios. Cuenta con especialidad en Litigio en materia de Seguridad Social en los que se vean involucrados nuestros clientes.",
+    "bio1": "Licenciado en Derecho, con más de 5 años de experiencia, en Litigio en materia Laboral. ",
+    "image": "/imgs/Lic-Yair.PNG"
+  }
+]

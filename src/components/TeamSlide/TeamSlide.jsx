@@ -1,6 +1,11 @@
+import { useNavigate } from 'react-router-dom'; 
 import styles from './TeamSlide.module.css';
+
 // Componente funcional que representa una sección para presentar al equipo de trabajo.
 export default function TeamSlide() {
+
+  const navigate = useNavigate();
+
   return (
     <section id="Trabajador-slide1" className={styles.trabajadorSlide}>
       <div className={styles.slidesBase}>
@@ -20,8 +25,7 @@ export default function TeamSlide() {
                 En SL Corp, cada integrante del equipo es parte fundamental del éxito. Contamos con profesionales altamente capacitados, comprometidos con la excelencia y apasionados por brindar soluciones que generan valor. Su experiencia, ética y calidad humana se reflejan en cada proyecto, impulsando siempre los mejores resultados.
               </p>
               {/* Enlace para ver más sobre el personal (lleva a la página de fuerza laboral con el slider) */}
-              <a href="Fuerza-slider.html">CONOCER AL PERSONAL</a>
-            </div>
+              <button className='action-btn' onClick={() => navigate('/equipo')}>Ver equipo completo</button>            </div>
           </div>
         </div>
       </div>

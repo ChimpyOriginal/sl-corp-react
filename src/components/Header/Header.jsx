@@ -10,10 +10,10 @@ export default function Header() {
 
   // Lista de elementos del menú. Cada elemento tiene un nombre, una ruta y un estado activo.
   const menuItems = [
-    { name: 'Inicio', path: '#', active: true },
+    { name: 'Inicio', path: '/', active: true },
     { name: 'Nosotros', path: '#nosotros' },
     { name: 'Servicios', path: '#servicios' },
-    { name: 'Fuerza laboral', path: '#fuerza-laboral' },
+    { name: 'Fuerza laboral', path: '/equipo' },
     { name: 'Contacto', path: '#contacto' },
   ]
 
